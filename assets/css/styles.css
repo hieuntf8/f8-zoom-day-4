@@ -16,6 +16,12 @@ body {
     color: rgb(39 39 39);
 }
 
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .content {
     max-width: 1098px;
     height: 1474px;
@@ -78,4 +84,36 @@ body {
 
 .d {
     padding-right: 100%;
+}
+
+/* Header */
+.header {
+    background: #4159d4;
+}
+
+.navbar-item,
+.navbar-link {
+    display: inline-block;
+}
+
+.navbar-item {
+    margin-right: -4px;
+}
+
+.navbar-link {
+    padding: 30px;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navbar-item-active {
+    background: #fff;
+}
+
+.navbar-item-active .navbar-link {
+    background: #fff;
+    color: rgb(39 39 39);
+    font-weight: 700;
 }
