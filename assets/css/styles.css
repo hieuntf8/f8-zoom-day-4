@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol";
+
+    padding: 48px 0;
+    background: rgb(164 118 115);
+    color: rgb(39 39 39);
+}
+
+.content {
+    max-width: 1098px;
+    height: 1474px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 44px 100px;
+    background: #fff;
+}
+
+.content-top {
+    text-align: center;
+}
+
+.heading-lv1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.heading-lv2 {
+    margin-top: 28px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgb(39 39 39);
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.heading-lv3 {
+    flex: 1;
+    margin: 24px 25px 24px 0;
+}
+
+.heading-lv3,
+.date {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.job-list,
+.desc {
+    list-style: disc;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.66;
+}
+
+.da {
+    text-align: justify;
+}
+
+.d-1,
+.d-2 {
+    display: inline-block;
+}
+
+.d {
+    padding-right: 100%;
+}
